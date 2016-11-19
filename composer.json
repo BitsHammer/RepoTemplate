@@ -1,0 +1,24 @@
+{
+  "name": "bits-hammer/repo-template",
+  "description": "An API to work with the data access layer",
+  "minimum-stability": "stable",
+  "license": "Open",
+  "authors": [
+    {
+      "name": "BrunoDM2943",
+      "email": "bdm2943@gmail.com"
+    },
+    {
+      "name": "LeticiaSoares",
+      "email": "lele_leticia.94@hotmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "com\\bitshammer\\": "src/"
+    }
+  }
+}
