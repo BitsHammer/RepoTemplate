@@ -18,7 +18,8 @@
   },
   "autoload": {
     "psr-4": {
-      "com\\bitshammer\\": "src/"
+      "com\\bitshammer\\": "src/",
+      "": "config/"
     }
   }
 }
