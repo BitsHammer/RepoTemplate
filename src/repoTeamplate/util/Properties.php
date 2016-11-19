@@ -19,7 +19,7 @@ class Properties
     {
         if (empty(self::$prop)){
 
-            self::$prop = parse_ini_file('/config/config.ini');
+            self::$prop = parse_ini_file('config/config.ini');
         }
         return self::$prop;
     }
